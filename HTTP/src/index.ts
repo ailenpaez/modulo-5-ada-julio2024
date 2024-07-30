@@ -73,6 +73,11 @@ const server = http.createServer((request, response) => {
   }
 });
 
+// fetch("",{
+//   method: "POST",
+//   body: JSON.stringify({name: "Walter", age: 33})
+// })
+
 server.listen(PORT, () => {
   console.log("Server listening on port:", PORT);
 });
